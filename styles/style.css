@@ -260,12 +260,7 @@ body {
   text-align: center;
 }
 
-.rectangle2 {
-  width: 50%;
-  height: 955px;
-  position: relative;
-}
-.rectangle2 ::before {
+.rectangle2::before {
   content: " ";
   display: block;
   position: absolute;
@@ -275,6 +270,12 @@ body {
   height: 100%;
   opacity: 1;
   background-color: black;
+}
+
+.rectangle2 {
+  width: 50%;
+  height: 955px;
+  position: relative;
 }
 .rectangle2 .upper {
   position: absolute;
