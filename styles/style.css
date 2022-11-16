@@ -323,14 +323,14 @@ body {
   border-radius: 1000px;
   background-color: rgb(37, 37, 36) !important;
   margin-left: 25px;
-  opacity: 0.5;
+  opacity: 0.7;
   cursor: pointer;
 }
 .rectangle2 .box-watches .little-rectangle1 img {
   max-width: 100%;
   height: auto;
 }
-.rectangle2 .box-watches .little-rectangle1 :hover {
+.rectangle2 .box-watches .little-rectangle1:hover {
   opacity: 1;
 }
 .rectangle2 .lower {
@@ -376,7 +376,7 @@ button {
   border-radius: 200px;
   cursor: pointer;
 }
-.icon :hover {
+.icon:hover {
   transform: scale(1.1);
 }
 
